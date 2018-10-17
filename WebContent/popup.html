@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>popup.html</title>
+</head>
+<script>
+function setCookie( name, value, expiredays ) { 
+  var todayDate = new Date(); 
+  todayDate.setDate( todayDate.getDate() + expiredays );
+  //자바스크립트에서 쿠키 저장
+  document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+}
+
+function closeWin() {
+  if(document.pop.PopCookie.checked==true){
+    setCookie("popcookie","done",1); // 변수명(name), 값(value), 쿠키기간(expiredays)
+  }
+  window.close();
+}
+</script>
+<body>
+	<img src="images/123.jpg">
+	<form name="pop">
+		<input type="checkbox" name="PopCookie">오늘 창 그만보기
+		<a href="javascript:closeWin()">[닫기]</a>
+	</form>
+</body>
+</html>

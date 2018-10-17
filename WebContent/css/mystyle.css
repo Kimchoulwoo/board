@@ -1,0 +1,66 @@
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {
+  	font-size: 16px;
+  }
+  .margin {margin-bottom: 45px;}
+  
+  .bg-1{
+  	  background-color: #5abeff;
+  	  color:#f5f6f7;
+  }
+  .bg-2 { 
+      background-color: #f8f8f8; 
+      color: #000000;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  .time{
+  	color:#000000; 
+  	border:0; 
+  	font-size:16px;
+	text-align:right; 
+	height:30px;
+	font: 16px Montserrat, sans-serif;
+}
+  
+  #myfilm{
+  	position:relative;  	 
+  	left:25%; 
+  	top:10px;
+	background-color:transparent;
+	width:50%;	
+	height:100px;
+	overflow:hidden;
+}
+
+.bbsfrm{
+	margin:auto;
+}
+  
